@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#buttonPosition {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(Imagenes/Grass.png);
+  position: relative;
+}
+
+#gifPokemon {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("Imagenes/pokemon.gif");
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
